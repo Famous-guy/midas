@@ -49,7 +49,7 @@ h4,
 h5,
 h6 {
   clear: both;
-  color: #12372A;
+  color: #1076ff;
   padding: 0;
   margin: 0 0 20px 0;
   font-weight: 700;
@@ -2648,7 +2648,10 @@ hr {
 }
 
 .cs_accent_bg {
-  background-color: #12372A;
+  background-color: #1076ff;
+}
+.deep{
+  background-color: #00aaf7;
 }
 
 .cs_gray_bg_1 {
@@ -2766,7 +2769,7 @@ hr {
   transition: all 0.4s ease-in-out;
 }
 .cs_btn.cs_style_1::before {
-  background-image: linear-gradient(134deg, #12372A 0%, #12372A 100%);
+  background-image: linear-gradient(134deg, #1076ff 0%, #1076ff 100%);
 }
 .cs_btn.cs_style_1::after {
   background-image: -webkit-gradient(linear, right top, left top, from(#03DFB6), to(#03DFB6));
@@ -7474,9 +7477,9 @@ a.ui-button:active,
   height: 448px;
   width: 426px;
   background-position: 6px 0px;
-  position: absolute;
+  position: relative;
   left: 50%;
-  top: -180px;
+  top: -100px;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   margin-left: 6px;
@@ -9466,7 +9469,7 @@ a.ui-button:active,
 .cs_iconbox.cs_style_7 .cs_iconbox_btn {
   width: 90px;
   height: 70px;
-  background-color: rgba(18, 55, 42, 1);
+  background-color: #1076ff;
   border-radius: 10px 0 20px 0;
   position: absolute;
   right: 0;
